@@ -1,0 +1,132 @@
+html {
+    height: 120%;
+  }
+  body {
+    min-height: 120%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+body,
+html {
+    /* height: 127%; */
+    width: 100%;
+    background-image: url(./bg_image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height:8rem;
+ 
+    width:100%;
+    /* border-radius:13px; */
+    border:3px solid black;
+    position:sticky;
+    margin:auto;
+    left:0%;
+    top:0%;
+    z-index: 2;
+    color: aliceblue;
+    background: rgba(254, 251, 255, 0.192);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+   font-size:2rem;
+}
+.content{
+    width:82%;
+    height:69.5rem;
+    padding: 3.99% 6%; 
+    border: 2px solid black;
+    display:block;
+    margin: 6.39% auto;
+    position: relative;
+    overflow:auto;
+    overscroll-behavior: auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(117, 116, 116, 0.18);
+    z-index: 1;
+}
+
+.foot{
+height:8%;
+width:100%;
+text-align: center;
+border:2px solid black;
+position:absolute;
+left: 0%;
+bottom: -4%;
+/* bottom:55.89%; */
+margin:1rem auto;
+/* border-radius:13px; */
+
+background: rgba( 11, 11, 11, 0.85 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 14.5px );
+-webkit-backdrop-filter: blur( 14.5px );
+/* border-radius: 10px; */
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+color:white;
+font-size:2rem;
+}
+
+.con-head{
+    margin:0rem 0rem 3rem 0rem;
+    font-family: 'Lobster', cursive;
+}
+
+.heading{
+    font-size: 3rem;
+    margin: 1rem 0rem;
+}
+
+.sub-head{
+    font-size: 1.8rem;
+    
+}
+
+.para{
+    text-indent: 4%;
+    font-size:1.5rem;
+    margin:1.3rem 0rem;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.spa{
+    position: absolute;
+    right: 6%;
+    font-size:1.4rem;
+    margin: 2% 2% 0% 2%;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+@media (max-width:1115px){
+       .content{
+           height: 75.5rem;
+       }
+}
+
+/* @media (max-width:950px){
+    .content{
+        height: 80.5rem;
+    }
+} */
+
+@media (min-width:1800px){
+    .content{
+        height: 60.5rem;
+    }
+}
